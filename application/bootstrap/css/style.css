@@ -1,0 +1,100 @@
+
+/*********mon entete*****************/
+		/**********mon header****************/
+		
+		header{
+			position:fixed;
+			display:block;
+			z-index:500;
+			top:0;
+			left:0;
+			right:0;
+			height:200px;
+		}
+		
+		#navigation{
+				position:fixed;
+				display:block;
+				top:200px;
+				z-index:500;
+				height:40px;
+				left:0;
+				right:0;
+			}
+			#divpageapprenant{
+				overflow:scroll-y;
+			}
+			#navigation ul{
+				list-style-type: none;
+				display:block;
+			}
+			#navigation ul li a{
+				display:block;
+				width:100%;
+				height:40px;
+				line-height:40px;
+				text-align:center;
+				font-size:1.2em;
+				color:black;
+				text-decoration:none;
+				cursor:pointer;
+			}
+			
+			
+			
+/*****************fin entete********************/
+
+/***********pied de page**************/
+			footer{
+				position:fixed;
+				display:block;
+				z-index:500;
+				height:40px;
+				bottom:0px;
+				left:0px;
+				right:0px;
+				background-color:dimgray;
+				padding-top:15px;
+				
+			}
+/************fin pied de page**********/
+
+
+/***********corps de page**************/
+			section{
+				position:fixed;
+				display:block;
+				top:240px;
+				width:100%;
+				left:0;
+				bottom:40px;
+				right:0;
+				
+			}
+			section #corps{
+				position:relative;
+				margin-top: 0.1%;
+				top:0%;
+			}
+			#corps img#imagefondaccueil{
+				position:fixed;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width:100%;
+				height:100%;
+			}
+			 div#canvasaccueilimage{
+				position:fixed;
+				top: 45%;
+			}
+			#fondstatistique{
+				background:url("../../images/fondstat.jpg") repeat;
+			}
+			.table-wrapper-scroll-y{
+				display:block;
+				max-height:250px;
+				overflow-style: -ms-autohiding-scrollbar;
+			}
+/************fin corps de page**********/
+			
